@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="icon" type = "logo", href="images/loho.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Raleway&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"></script>
+    <title>Student Portfolio</title>
+    </head>
+    <body>
+        <nav align = "center" class="nav">
+            <ul>
+            <li><a href="#home" class="nav-button">Home</a></li>
+            <li><a href="#about" class="nav-button">About Me</a></li>
+            <li><a href="#achievements-section" class="nav-button">Achievements</a></li>
+            <li><a href="#socials" class="nav-button">Socials</a></li>
+            <li><a href="#gallery" class="nav-button">Gallery</a></li>
+            </ul>
+        </nav>
+        <script>
+            anime({
+                targets: ".nav",
+                translateY: 60,
+                easing: "easeInOutSine",
+                duration: 200
+            })
+            anime({
+                targets: ".nav-button",
+                keyframes: [
+                    {opacity: 0},
+                    {opacity: 1},
+                ],
+                easing: "easeInOutQuad",
+                delay: anime.stagger(300),
+                duration: 1000,
+            })
+        </script>
+        <section id="home">
+            <div class="intro">
+                <h1 class="hi">Hi, I'm VARUN :&#41</h1>
+                <p>Basketballer |  Cricketer |  Guitarist  |  Video Editor  |  Programmer</p>
+            </div>
+        </section>
+        <br>
+        <br>
+        <section id="about" class="about-section">
+            <h1>About Me</h1>
+            <div class= "about-container" style="display:flex">
+                <div class="about-img">
+                    <img src="pictures\varun.jpeg" width=90%>
+                </div>
+                <div class="about-para">
+                    <p>
+                        Hey. I'm Varun UB. I'm a 19 year old guy from Bangalore, Karnataka. <br> I have completed my schooling from Vidyaniketan Public School. I aim to work in a auto mobile company or even, one day, found my own  car modification company. <br>I believe in having the right amount of interest for anything in life as interest is the leading factor for motivation in life. <br>I'm mostly extroverted and am down for spontaneous plans and adventures and car rides. <br> I'm interested in learning Coding and play sports. In people, I generally look for qualities like respect, self esteem, politeness and a general pleasant aura. 
+                    </p>
+                </div>
+            </div>
+        </section>
+    <br>
+    <br>
+    <section id="achievements-section" class="achievement-section">
+        <h1>Achievements</h1>
+       <div class="achievements-container">
+        <div class="achievement">
+           <h3>Interschool Basketball Player <br>Interschool event in Tamil Nadu</h3>
+            <p>Bagged the runners up place for my school.The competion was held in ZEE SCHOOL.</p>
+        </div>
+        <div class="achievement">
+            <h3>1st Place in English Creative Writing</h3>
+            <p>Won first place in the English Creative Writing competition held by my school.</p>
+        </div>
+        <div class="achievement">
+            <h3>Athletics</h3>
+            <p>Won a 400 metre relay at district level competion. </p>
+        </div>
+        <div class="achievement">
+            <h3>Hackathon</h3>
+            <p>Participated in county level hackathon in 2022.<br>Got shortlisted in for the finals from 200 teams in our category.</p>
+        </div>
+        <div class="achievement">
+            <h3>Amateur Guitarist<br></h3>
+            <p>Earned the Trinity Grade 1 Certificate with Distinction for <br>Acoustic Guitar.</p>
+        </div>
+        <div class="achievement">
+            <h3>Video Editor<br></h3>
+            <p>I have keen interest in capturing and editing moments of my life<br>and posting on social mediea. Won low level competitions.</p>
+        </div>
+        <div class="achievement">
+            <h3>Programmer<br></h3>
+            <p>Has done multiple projects on <br>Python, C++, Mysql, HTML and CSS<br></p>
+        </div>
+        </div>
+        <script>
+            anime({
+                targets: ".achievement",
+                keyframes: [
+                    {backgroundColor: "rgba(0, 0, 0, 0.424)"},
+                    {backgroundColor: "rgba(0, 0, 0, 0.259)"},
+                ],
+                delay: anime.stagger(300),
+                easing: "linear",
+                duration: 3000,
+                loop:true
+            })
+        </script>
+    </section>
+    <br>
+    <br>
+    <section id="socials" class="section">  
+        <h1>Socials</h1>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/varun-badiger-7577332a8/?trk=public-profile-join-page" target="_blank" class="social-link">LinkedIn</a>
+            <a href="https://twitter.com/Va78632Varun" target="_blank" class="social-link">Twitter</a>
+            <a href="https://www.instagram.com/varub._/" target="_blank" class="social-link">Instagram</a>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+
+    <section id="gallery" class="section">
+        <h1>Gallery</h1>
+        <div class="gallery-container">
+            <a href="pictures\varun nandi.jpg" target="_blank" class="gallery-item">
+                <img src="pictures\varun nandi.jpg" alt="Image 2">
+                <span>Image 2</span>
+            </a>
+            <a href="pictures\wc.jpeg" target="_blank" class="gallery-item">
+                <img src="pictures\wc.jpeg" alt="Image 2">
+                <span>Image 2</span>
+            </a>
+            <a href="pictures\road.jpeg" target="_blank" class="gallery-item">
+                <img src="pictures\road.jpeg" alt="Image 3">
+                <span>Image 3</span>
+            </a>
+            <a href="pictures\sky.jpeg" target="_blank" class="gallery-item">
+                <img src="pictures\sky.jpeg" alt="Image 4">
+                <span>Image 4</span>
+            </a>
+            <a href="pictures\nature.jpeg" target="_blank" class="gallery-item">
+                <img src="pictures\nature.jpeg" alt="Image 1">
+                <span>Image 1</span>
+            </a>
+            <a href="pictures\nandi.jpeg" target="_blank" class="gallery-item">
+                <img src="pictures\nandi.jpeg" alt="Image 1">
+                <span>Image 1</span>
+            </a>
+            <a href="pictures\nature 2.jpg" target="_blank" class="gallery-item">
+                <img src="pictures\nature 2.jpg" alt="Image 1">
+                <span>Image 1</span>
+            </a>
+            <a href="pictures\lake.jpeg" target="_blank" class="gallery-item">
+                <img src="pictures\lake.jpeg" alt="Image 1">
+                <span>Image 1</span>
+            </a>
+            <a href="pictures\kia.jpeg" target="_blank" class="gallery-item">
+                <img src="pictures\kia.jpeg" alt="Image 1">
+                <span>Image 1</span>
+            </a>
+            <a href="pictures\elephant.jpeg" target="_blank" class="gallery-item">
+                <img src="pictures\elephant.jpeg" alt="Image 1">
+                <span>Image 1</span>
+            </a>
+            <a href="pictures\jawa.jpeg" target="_blank" class="gallery-item">
+                <img src="pictures\jawa.jpeg" alt="Image 1">
+                <span>Image 1</span>
+            </a>
+            <a href="pictures\ganesha.jpeg" target="_blank" class="gallery-item">
+                <img src="pictures\ganesha.jpeg" alt="Image 1">
+                <span>Image 1</span>
+            </a>
+            <a href="pictures\iskon.jpeg" target="_blank" class="gallery-item">
+                <img src="pictures\iskon.jpeg" alt="Image 1">
+                <span>Image 1</span>
+            </a>
+            <a href="pictures\gym.jpeg" target="_blank" class="gallery-item">
+                <img src="pictures\gym.jpeg" alt="Image 1">
+                <span>Image 1</span>
+            </a>
+            <a href="pictures\bike.jpeg" target="_blank" class="gallery-item">
+                <img src="pictures\bike.jpeg" alt="Image 1">
+                <span>Image 1</span>
+            </a>
+            <a href="pictures\ctr.jpeg" target="_blank" class="gallery-item">
+                <img src="pictures\ctr.jpeg" alt="Image 1">
+                <span>Image 1</span>
+            </a>
+            <a href="pictures\amintri.jpeg" target="_blank" class="gallery-item">
+                <img src="pictures\amintri.jpeg" alt="Image 1">
+                <span>Image 1</span>
+            </a>
+            <a href="pictures\date.jpeg" target="_blank" class="gallery-item">
+                <img src="pictures\date.jpeg" alt="Image 1">
+                <span>Image 1</span>
+            </a>
+            <a href="pictures\chruch.jpeg" target="_blank" class="gallery-item">
+                <img src="pictures\chruch.jpeg" alt="Image 1">
+                <span>Image 1</span>
+            </a>
+            <a href="pictures\bridge.jpg" target="_blank" class="gallery-item">
+                <img src="pictures\bridge.jpg" alt="Image 1">
+                <span>Image 1</span>
+            </a>
+        </div>
+    </section>
+    <br>
+    <br>
+
+    <br>
+    <section id="contact" class="section">
+        <h1>Contact Me</h1>
+        <div class="contact-details">
+            <p><strong>Address:</strong> RV UNIVERSITY (Go Change The World),Bangalore</p>
+            <p><strong>Email:</strong> varunu.btech23@rvu.edu.in</p>
+            <p><strong>Phone:</strong> +91 8904681177</p>
+        </div>
+        <form class="contact-form" action="mailto:varunu.btech23@rvu.edu.in" method="post" enctype="text/plain">
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <button type="button" onclick="this.classList.add('clicked')">Send</button>
+            <br>
+            <br>
+            <p>Website developed by Varun UB, Regn no: 1RVU23CSE530, RV UNIVERSITY (Go Change The World) <br> © Copyright. All Rights Reserved.</p>
+        </form>
+        </section>
+    </body>
+</html>
